@@ -36,9 +36,9 @@ collection = Collection(name="Album1", schema=collection_schema)
 
 print("Collections:", utility.list_collections())
 
-# Rename and drop for demo
-utility.rename_collection("Album1", "Album2")
-print("Collections after rename:", utility.list_collections())
+# # Rename and drop for demo
+# utility.rename_collection("Album1", "Album2")
+# print("Collections after rename:", utility.list_collections())
 
-utility.drop_collection("Album2")
-print("Collections after drop:", utility.list_collections())
+# utility.drop_collection("Album2")
+# print("Collections after drop:", utility.list_collections())
